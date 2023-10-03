@@ -1,0 +1,17 @@
+.footer {
+    background: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & > * {
+        display: flex;
+        gap: 20px;
+    }
+}

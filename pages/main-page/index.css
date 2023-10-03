@@ -50,6 +50,10 @@
   color: #282828;
 }
 
+.none-decor {
+  text-decoration: none;
+}
+
 .header__button_active {
   color: #01662D;
 }
@@ -325,6 +329,24 @@
   width: 201px;
   height: 60px;
   background: url(img/slider-resourse-img-1.png);
+}
+
+.footer {
+  background: #004819;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__info > * {
+  display: flex;
+  gap: 20px;
 }
 
 *, *:before, *:after {
