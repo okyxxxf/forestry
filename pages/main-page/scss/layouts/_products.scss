@@ -1,0 +1,14 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    background: $color-background;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.products__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

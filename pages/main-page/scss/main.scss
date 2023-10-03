@@ -10,13 +10,15 @@
     'components/nav',
     'components/info-block',
     'components/new',
-    'components/slider';
+    'components/slider',
+    'components/product';
 
 @import
     'layouts/header',
     'layouts/info',
     'layouts/news',
-    'layouts/forestries';
+    'layouts/forestries',
+    'layouts/products';
 
 @import 
     'vendors/reset';

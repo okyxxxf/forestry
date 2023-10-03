@@ -1,0 +1,16 @@
+.product {
+    background: $color-primary;
+    border-radius: 15px;
+}
+
+.product__h3 {
+    display: flex;
+    width: 270px;
+    height: 65px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
