@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.68.0"
+  },
+  "name": "forestry",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "scss": "sass pages/main-page/scss/main.scss pages/main-page/index.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
