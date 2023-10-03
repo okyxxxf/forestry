@@ -1,0 +1,33 @@
+.forestry {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(img/card__background.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.forestry__info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    & > .button-wrapper {
+        padding: 30px 0;
+    }
+}
+
+.forestries__slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.slider__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-bottom: 20px;
+}

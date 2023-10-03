@@ -9,12 +9,14 @@
     'components/logo',
     'components/nav',
     'components/info-block',
-    'components/new';
+    'components/new',
+    'components/slider';
 
 @import
     'layouts/header',
     'layouts/info',
-    'layouts/news';
+    'layouts/news',
+    'layouts/forestries';
 
 @import 
     'vendors/reset';

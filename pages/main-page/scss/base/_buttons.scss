@@ -5,9 +5,15 @@
 .button {
     border-radius: 15px;
     background: $color-button;
+    border: none;
 }
 
 .news__button {
     width: 300px;
     padding: 18px 45px;
+    margin-bottom: 30px;
+}
+
+.forestry__button {
+    padding: 18px;
 }
