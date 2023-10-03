@@ -46,8 +46,22 @@
   color: #818181;
 }
 
+.news__button {
+  color: #282828;
+}
+
 .header__button_active {
   color: #01662D;
+}
+
+.button {
+  border-radius: 15px;
+  background: #F0E332;
+}
+
+.news__button {
+  width: 300px;
+  padding: 18px 45px;
 }
 
 .logo {
@@ -123,6 +137,7 @@
 
 .new__img {
   background: #DCDCDC;
+  border-radius: 15px 15px 0px 0px;
   width: 300px;
   height: 220px;
 }

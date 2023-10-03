@@ -1,3 +1,13 @@
 .header__button_active {
     color: $color-primary;
 }
+
+.button {
+    border-radius: 15px;
+    background: $color-button;
+}
+
+.news__button {
+    width: 300px;
+    padding: 18px 45px;
+}
