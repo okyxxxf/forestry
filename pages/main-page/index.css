@@ -308,6 +308,25 @@
   gap: 20px;
 }
 
+.info-resourses {
+  background: #373737;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.info-resourses__slider {
+  display: flex;
+  gap: 20px;
+}
+.info-resourses__slider .slider__image {
+  width: 201px;
+  height: 60px;
+  background: url(img/slider-resourse-img-1.png);
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
