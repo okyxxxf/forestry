@@ -1,0 +1,23 @@
+.news {
+    background: $color-background;
+}
+
+.news__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.news__h2 {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.news__line {
+    height: 3px;
+    width: 100%;
+    background: $color-background-accent;
+}

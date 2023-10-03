@@ -8,11 +8,13 @@
 @import 
     'components/logo',
     'components/nav',
-    'components/info-block';
+    'components/info-block',
+    'components/new';
 
 @import
     'layouts/header',
-    'layouts/info';    
+    'layouts/info',
+    'layouts/news';
 
 @import 
     'vendors/reset';
