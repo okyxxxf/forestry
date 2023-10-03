@@ -1,0 +1,50 @@
+body {
+    font-family: Manrope;
+}
+
+.h1 {
+    color: $color-text;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.h2 {
+    color: $color-text;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 100%
+}
+
+.h3 {
+    color: $color-text;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.p { 
+    color: $color-text;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.footer__h1 {
+    color: $color-text;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bold-extra {
+    font-weight: 800;
+}
