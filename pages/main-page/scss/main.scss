@@ -7,10 +7,12 @@
 
 @import 
     'components/logo',
-    'components/nav';
+    'components/nav',
+    'components/info-block';
 
 @import
-    'layouts/header';    
+    'layouts/header',
+    'layouts/info';    
 
 @import 
     'vendors/reset';
