@@ -1,19 +1,12 @@
-body {
+.h1, .h2, .h3, .p, .footer__h1 {
     font-family: Manrope;
 }
 
-.h1 {
+.h1, .h2 {
     color: $color-text;
-    font-size: 32px;
+    font-size: 20px;
     font-style: normal;
     line-height: 100%;
-}
-
-.h2 {
-    color: $color-text;
-    font-size: 32px;
-    font-style: normal;
-    line-height: 100%
 }
 
 .h3 {

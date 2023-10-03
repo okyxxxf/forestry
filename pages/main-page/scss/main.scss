@@ -1,8 +1,16 @@
 @import 
     'abstracts/variables';
+    
+@import 
+    'base/typography',
+    'base/buttons';
 
 @import 
-    'base/typography';
+    'components/logo',
+    'components/nav';
+
+@import
+    'layouts/header';    
 
 @import 
     'vendors/reset';
