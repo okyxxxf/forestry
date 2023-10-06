@@ -1,29 +1,34 @@
-abstract class Slider {
-  private slides : Array<object>;
-  public currentSlide : number = 0;
-  private prevSlideButton : HTMLElement;
-  private nextSlideButton : HTMLElement;
+import { Forestry } from "./typeForestry";
 
-  constructor (slides : Array<object>, prevSlideButton : HTMLElement, nextSlideButton : HTMLElement) {
+abstract class Slider {
+  protected slides : Array<Forestry>;
+  protected currentSlide : number = 0;
+  protected prevSlideButton : Element;
+  protected nextSlideButton : Element;
+
+  constructor (slides : Array<Forestry>, prevSlideButton : Element, nextSlideButton : Element) {
     this.slides = slides;
     this.prevSlideButton = prevSlideButton;
     this.nextSlideButton = nextSlideButton;
     this.configButtons();
   }
 
-  private nextSlide () : number {
-    if (this.currentSlide === this.slides.length) return this.currentSlide = 0;
+  protected nextSlide () : number {
+    if (this.currentSlide === this.slides.length - 1) {
+      this.currentSlide = 0;
+      return 0;
+    }
     return this.currentSlide++;
   }
 
-  private prevSlide () : number {
+  protected prevSlide () : number {
     if (this.currentSlide === 0 ) return this.currentSlide = this.slides.length - 1;
     return this.currentSlide--;
   }
 
   private configButtons () : void {
     this.prevSlideButton.addEventListener('click', () => this.prevSlide());
-    this.nextSlideButton.addEventListener('click', () => this.nextSlide())
+    this.nextSlideButton.addEventListener('click', () => this.nextSlide());
   }
 }
 
