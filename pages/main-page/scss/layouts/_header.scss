@@ -7,19 +7,17 @@
 
 .header__wrapper {
     display: flex;
+    flex-direction: column;
     height: 100%;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
 }
 
 .header__buttons {
-    position: absolute;
     display: flex;
-    right: 30px;
-    top: 40px;
-    flex-direction: column;
-    gap: 20px;
+    width: 100%;
+    padding: 50px 30px 0 30px;
+    justify-content: space-between;
 }
 
 .header__buttons-wrapper {

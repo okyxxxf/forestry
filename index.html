@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная | Минский лесхоз</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="pages/main-page/index.css">
     <link rel="shortcut icon" href="pages/main-page/img/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,161 +14,38 @@
 <body>
     <header class="header">
         <div class="header__wrapper">
+            <div class="header__buttons">
+                <div class="header__buttons-wrapper">
+                    <div class="header__button h3 regular header__button_active">RU</div>
+                    <div class="header__button h3 regular">EN</div>
+                    <div class="header__button h3 regular">BE</div>
+                </div>
+                <div class="header__buttons-wrapper">
+                    <img class="header__button" src="pages/main-page/img/low-vision.svg" alt="Кнопка для слабовидящих">
+                    <img class="header__button" src="pages/main-page/img/map.svg" alt="Карта сайта">
+                    <img class="header__button" src="pages/main-page/img/feedback).svg" alt="Кнопка электронного обращения">
+                </div>
+            </div>
             <div class="header__logo">
                 <div class="logo">
                     <img src="pages/main-page/img/favicon.svg" alt="logo image">
                     <h1 class="h1 bold-extra logo__h1">Минский Лесхоз</h1>
                 </div>
             </div>
-            <div class="header__buttons">
-                <div class="header__buttons-wrapper">
-                    <img class="header__button" src="pages/main-page/img/low-vision.svg" alt="Кнопка для слабовидящих">
-                    <img class="header__button" src="pages/main-page/img/map.svg" alt="Карта сайта">
-                    <img class="header__button" src="pages/main-page/img/feedback).svg" alt="Кнопка электронного обращения">
-                </div>
-                <div class="header__buttons-wrapper header__buttons-wrapper_language-switch">
-                    <div class="header__button h3 regular header__button_active">RU</div>
-                    <div class="header__button h3 regular">EN</div>
-                    <div class="header__button h3 regular">BE</div>
-                </div>
-            </div>
             <nav class="header__nav nav">
+                <ul class="menu">
+                    <li><a class="p regular" href="#">Главная</a></li>
+                    <li><a class="p regular" href="#">Продукция и услуги</a> </li>
+                    <li><a class="p regular" href="#">О лесхозе</a></li>
+                    <li><a class="p regular" href="#">Обращения</a></li>
+                    <li><a class="p regular" href="#">Контакты</a></li>
+                    <li><a class="p regular" href="#">Административные процедуры</a></li>
+                </ul>
                 <img src="pages/main-page/img/menu__burger.svg" alt="burger menu icon" class="burger">
                 <p class="p regular">Телефоны горячих линий</p>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="info">
-            <div class="info-wrapper">
-                <div class="info-block_big">
-                    <div class="info-block__info">
-                        <h3 class="h3 bold">Усадьба "Охотник у дуба"</h3>
-                        <p class="p regular">
-                            <a class="p regular" href="#">Подробнее</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="info-blocks">
-                    <div class="info-block_little">
-                        <img class="info-block__img_littfa-pull-left" src="pages/main-page/img/info-block_little1.png" alt="Фото 2023 - год мира и созидания">
-                        <div class="info-block__info_little p regular">2023 - Год мира и созидания</div>
-                    </div>
-                    <div class="info-block_little">
-                        <img class="info-block__img_littfa-pull-left" src="pages/main-page/img/info-block_little2.png" alt="Фото Профсоюзная жизнь">
-                        <div class="info-block__info_little p regular">Профсоюзная жизнь</div>
-                    </div>
-                    <div class="info-block_little">
-                        <img class="info-block__img_littfa-pull-left" src="pages/main-page/img/info-block_little3.png" alt="Фото Сертификация">
-                        <div class="info-block__info_little p regular">Сертификация</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="news">
-            <div class="news__h2 h2 bold">
-                Новости
-                <div class="news__line"></div>
-            </div>
-            <ul class="news__list">
-                <li class="new">
-                    <div class="new__img"></div>
-                    <div class="new__info">
-                        <p class="date p regular">1 октября 2023 г.</p>
-                        <h3 class="h3 bold">Эффективность работы гослесохраны обсудят сегодня в Ивьевском лесхозе</h3>
-                    </div>
-                </li>
-                <li class="new">
-                    <div class="new__img"></div>
-                    <div class="new__info">
-                        <p class="date regular p">1 октября 2023 г.</p>
-                        <h3 class="h3 bold">Эффективность работы гослесохраны обсудят сегодня в Ивьевском лесхозе</h3>
-                    </div>
-                </li>
-                <li class="new">
-                    <div class="new__img"></div>
-                    <div class="new__info">
-                        <p class="date p regular">1 октября 2023 г.</p>
-                        <h3 class="h3 bold">Эффективность работы гослесохраны обсудят сегодня в Ивьевском лесхозе</h3>
-                    </div>
-                </li>
-                <li>
-                    <button class="button news__button p" type="button">Все новости</button>
-                </li>
-            </ul>
-        </section>
-        <section class="forestries">
-            <h2 class="forestries__h2 h2 bold">Лесничества</h2>
-            <div class="forestries__slider">
-                <div class="forestry" id="forestry">
-                </div>
-                <div class="slider__buttons">
-                    <img src="pages/main-page/img/slider-back.svg" id="forestry-slider-back" alt="back button" class="back-button slider__button">
-                    <img src="pages/main-page/img/slider-future.svg" id="forestry-slider-future" alt="future button" class="future-button slider__button">
-                </div>
-            </div>
-        </section>
-        <section class="products">
-            <h2 class="h2 products__h2 bold">Продукция и услуги</h2>
-            <ul class="products__list">
-                <li class="product">
-                    <img src="pages/main-page/img/woodsincircle.png" alt="Древесина в круглом виде фото">
-                    <h3 class="product__h3 h3 bold">Древесина в круглом виде</h3>
-                </li>
-                <li class="product">
-                    <img src="pages/main-page/img/drova.png" alt="Дрова фото">
-                    <h3 class="product__h3 h3 bold">Дрова</h3>
-                </li>
-                <li class="product">
-                    <img src="pages/main-page/img/kolotiedrova.png" alt="Колотые дрова фото">
-                    <h3 class="product__h3 h3 bold">Колотые дрова</h3>
-                </li>
-            </ul>
-            <button class="products__button button p" type="button">Вся продукция и услуги</button>
-        </section>
-        <section class="info-resourses">
-            <h2 class="info-resourses__h2 h2 bold">Информационные ресурсы</h2>
-            <div class="info-resourses__slider">
-                <img src="pages/main-page/img/slider-back.svg" alt="back button" id="info-resourse-back" class="back-button slider__button">
-                <div class="slider__image"></div>
-                <img src="pages/main-page/img/slider-future.svg" alt="future button" id="info-resiurse-future" class="future-button slider__button">
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__logo">
-            <div class="logo">
-                <img src="pages/main-page/img/favicon.svg" alt="logo image">
-                <h1 class="h1 bold-extra logo__h1">Минский Лесхоз</h1>
-            </div>
-        </div>
-        <div class="footer__info">
-            <p class="p regular">
-                <img src="pages/main-page/img/call-icon.svg" alt="Звонок иконка"><a href="callto: 3516012" class="p regular none-decor">351-60-12 </a>
-            </p>
-            <p class="p regular">
-                <img src="pages/main-page/img/map-icon.svg" alt="Карта точка иконка"><a href="https://yandex.com/maps/-/CDU2bY7n" class="p regular none-decor">220037 г. Минск, ул. Багратиона, 70</a>
-            </p>
-            <p class="p regular">
-                <img src="pages/main-page/img/mail-icon.svg" alt="письмо конверт иконка"><a href="mailto: lesxozsys@forestry.by" class="p regular none-decor">lesxozsys@forestry.by</a>   
-            </p>
-        </div>
-        <div class="footer__info">
-            <p class="p regular">Время работы: 8.00 - 17.00</p>
-            <p class="p regular">Обед: 13.00 - 14.00</p>
-            <p class="p regular">кроме выходных и праздничных дней</p>
-        </div>
-        <div class="footer__info">
-            <p class="p regular">Государственное лесохозяйственное учреждение «Минский лесхоз»</p>
-            <p class="p regular">© 2023, Минский лесхоз</p>
-            <p class="p regular">
-                <a class="p regular none-decor" href="https://t.me/okyxxxf">Разработчик</a>
-            </p>
-            <p class="p regular">
-                <a class="p regular none-decor" href="https://t.me/choorilo">Дизайнер</a>
-            </p>
-        </div>
-    </footer>
-    <script src="/dist/bundle-main-page.js"></script>
+   
 </body>
 </html>

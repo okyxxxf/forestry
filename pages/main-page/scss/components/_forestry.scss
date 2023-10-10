@@ -5,6 +5,7 @@
     //background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(img/card__background.png), lightgray 50% / cover no-repeat;
     display: flex;
     flex-direction: column;
+    animation: slide 1s ease;
 }
 
 .forestry__info {
