@@ -11,12 +11,13 @@
     height: 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 0 30px;
 }
 
 .header__buttons {
     display: flex;
     width: 100%;
-    padding: 50px 30px 0 30px;
+    padding: 50px 0;
     justify-content: space-between;
 }
 
@@ -28,4 +29,10 @@
 .header__buttons-wrapper_language-switch {
     gap: 5px;
     justify-content: end;
+}
+
+@media (min-width: 1000px) {
+    .header__wrapper {
+        padding: 0 80px;
+    }
 }
