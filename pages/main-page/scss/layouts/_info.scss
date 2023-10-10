@@ -17,3 +17,15 @@
     gap: 10px;
     flex-direction: column;
 }
+
+@media (min-width: 1000px) {
+    .info-wrapper {
+        flex-direction: row;
+        padding: 50px 80px;
+        gap: 25px;
+    }
+    .info-blocks {
+        gap: 25px;
+        flex-grow: 0.5;
+    }
+}
