@@ -1,29 +1,23 @@
 
 window.onload = () => {
-	const swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
+	const swiper = new Swiper(".forestries__slider", {
+        loop: true,
+        centeredSlides: true,
+        centeredSlidesBounds: true,
+        spaceBetween: 0,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
         },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true
-        },
-        // breakpoints: {
-        //   640: {
-        //     slidesPerView: 2,
-        //     spaceBetween: 20
-        //   },
-        //   768: {
-        //     slidesPerView: 4,
-        //     spaceBetween: 40
-        //   },
-        //   1024: {
-        //     slidesPerView: 5,
-        //     spaceBetween: 50
-        //   }
-        // }
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 0
+          },
+          1000: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          }
+        }
       });
 }

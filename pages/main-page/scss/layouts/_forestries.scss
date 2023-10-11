@@ -1,10 +1,35 @@
 .forestries {
     background: $color-background-accent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .slider__wrapper {
+        padding: 0 30px;
+    }
 }
 
 .forestries__h2 {
     padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 1000px) {
+    .forestries {
+        .slider__wrapper {
+            padding: 0 50px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .forestries {
+        .slider__wrapper {
+            padding: 0 100px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .forestries {
+        .slider__wrapper {
+            padding: 0 240px;
+        }
+    }
 }
