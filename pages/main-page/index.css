@@ -1124,6 +1124,7 @@ button.swiper-pagination-bullet {
 .news__aside {
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 
 .news__wrapper {
@@ -1155,6 +1156,18 @@ button.swiper-pagination-bullet {
     padding: 18px;
   }
 }
+.social-forestry {
+  width: 300px;
+  height: 452px;
+  border-radius: 15px;
+}
+
+.quality-forestry {
+  width: 300px;
+  height: 370px;
+  border-radius: 15px;
+}
+
 .forestries {
   background: #373737;
 }
