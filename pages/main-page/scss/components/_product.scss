@@ -1,6 +1,29 @@
 .product {
     background: $color-primary;
     border-radius: 15px;
+    transition: 0.5s;
+}
+
+.product__img {
+    width: 300px;
+    height: 220px;
+    flex-shrink: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.img-scaler {
+    display: inline-block;
+    overflow: hidden;
+    width: 280px;
+    height: 190px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-scaler img {
+    display: block;
+    transition: 0.4s;
 }
 
 .product__h3 {
@@ -13,4 +36,14 @@
     margin: auto;
     text-align: center;
     padding: 15px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .img-scaler img:hover {
+        transform: scale(1.2);
+    }  
+    .product:hover {
+        background: $color-secondary;
+    } 
 }
