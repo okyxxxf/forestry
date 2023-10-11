@@ -77,6 +77,12 @@
   margin-bottom: 30px;
 }
 
+@media (min-width: 1000px) {
+  .news__button {
+    width: auto;
+    padding: 18px;
+  }
+}
 .forestry__button {
   padding: 18px;
 }
@@ -313,6 +319,10 @@
 }
 .news {
   background: #282828;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .news__list {
@@ -323,10 +333,10 @@
 }
 
 .news__h2 {
-  padding: 20px 30px;
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-bottom: 20px;
 }
 
 .news__line {
@@ -335,6 +345,53 @@
   background: #373737;
 }
 
+@media (min-width: 1000px) {
+  .news {
+    padding: 50px 80px;
+  }
+  .news__h2 {
+    padding-bottom: 50px;
+  }
+}
+.news-button__wrapper {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.news__aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .news__aside {
+    display: none;
+    visibility: hidden;
+  }
+  .new:nth-child(odd) {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (min-width: 1000px) {
+  .news__wrapper .news__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .news__wrapper .news-button__wrapper {
+    justify-content: center;
+  }
+  .news__wrapper .news-button__wrapper .news__butoon {
+    padding: 18px;
+  }
+}
 .forestries {
   background: #373737;
   display: flex;
