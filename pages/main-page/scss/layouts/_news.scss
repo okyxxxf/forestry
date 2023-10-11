@@ -56,7 +56,7 @@
         display: none;
         visibility: hidden;
     }
-    .new:nth-child(odd) {
+    .new:nth-child(n + 4) {
         display: none;
         visibility: hidden;
     }
