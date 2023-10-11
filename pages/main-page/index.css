@@ -204,6 +204,7 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  transition: 1s;
 }
 
 .forestry__info {
@@ -240,6 +241,18 @@
   }
   .swiper-button-prev {
     left: -15px;
+  }
+  .forestry .forestry__button,
+  .forestry .forestry__p {
+    opacity: 0;
+    transition: 1s;
+  }
+  .forestry:hover .forestry__button,
+  .forestry:hover .forestry__p {
+    opacity: 1;
+  }
+  .forestry:hover .forestry__button:hover {
+    background-color: #FBC029;
   }
 }
 .product {
