@@ -1151,7 +1151,7 @@ button.swiper-pagination-bullet {
   background: #373737;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .news {
     padding: 50px 80px;
   }
@@ -1176,7 +1176,7 @@ button.swiper-pagination-bullet {
   flex-direction: column;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .news__aside {
     display: none;
     visibility: hidden;
@@ -1186,7 +1186,7 @@ button.swiper-pagination-bullet {
     visibility: hidden;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .news__wrapper .news__list {
     flex-direction: row;
     flex-wrap: wrap;

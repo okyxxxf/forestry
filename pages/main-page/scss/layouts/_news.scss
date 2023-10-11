@@ -26,7 +26,7 @@
     background: $color-background-accent;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .news {
         padding: 50px 80px;
     }
@@ -52,7 +52,7 @@
     flex-direction: column;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .news__aside {
         display: none;
         visibility: hidden;
@@ -65,7 +65,7 @@
 
 
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
     .news__wrapper {
         .news__list {
             flex-direction: row;
