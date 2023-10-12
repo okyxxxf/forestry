@@ -1,4 +1,3 @@
-
 window.onload = () => {
 	const forestrySwiper = new Swiper(".forestries__slider", {
         loop: true,
@@ -38,7 +37,7 @@ window.onload = () => {
           640:{
             slidesPerView: 1,
             spaceBetween: 0
-          },
+            },
           840:{
             slidesPerView: 2,
             spaceBetween: 0
@@ -57,6 +56,4 @@ window.onload = () => {
           },
         }
       });
-
-  document.body.style.overflowX = 'hidden';
 }
