@@ -14,7 +14,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "scss": "sass pages/news-page/scss/main.scss pages/news-page/index.css --watch"
+    "scss": "sass pages/new-page/scss/main.scss pages/new-page/index.css --watch"
   },
   "keywords": [],
   "author": "",
