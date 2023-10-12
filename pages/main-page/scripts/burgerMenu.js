@@ -1,4 +1,3 @@
-window.onload = () => {
 	const menu = document.createElement('div');
   const header = document.querySelector('.header');
 	menu.className = 'burger-menu';
@@ -73,4 +72,3 @@ window.onload = () => {
     menu.remove();
 		if (isOpenBurgerMenu) header.append(menu);
 	};
-}

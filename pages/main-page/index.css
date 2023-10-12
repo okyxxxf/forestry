@@ -68,15 +68,6 @@
     opacity: 1;
   }
 }
-@keyframes hidemenu {
-  from {
-    transform: scaleY(1);
-  }
-  to {
-    transform: scaleY(0);
-    display: none;
-  }
-}
 .header__button_active {
   color: #818181;
 }
@@ -1414,6 +1405,7 @@ button.swiper-pagination-bullet {
   width: 100%;
   background: #282828;
   border-radius: 0px 0px 15px 15px;
+  animation: showmenu 0.7s ease forwards;
 }
 
 .burger-menu__nav {

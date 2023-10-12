@@ -14,13 +14,3 @@
         opacity: 1;
     }
 }
-
-@keyframes hidemenu {
-    from {
-        transform: scaleY(1);
-    }
-    to {
-        transform: scaleY(0);
-        display: none;
-    }
-}
