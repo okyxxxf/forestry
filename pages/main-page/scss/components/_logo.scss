@@ -10,11 +10,11 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .logo img {
+    .logo img:not(.logo__img_footer) {
         width: 100px;
         height: 100px;
     }
-    .logo__h1 {
+    .logo__h1_header {
         position: absolute;
         top: 18px;
         left: 65px;
