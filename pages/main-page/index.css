@@ -1328,6 +1328,12 @@ button.swiper-pagination-bullet {
   padding: 40px;
 }
 
+@media screen and (min-width: 1000px) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+  }
+}
 .footer__info {
   display: flex;
   flex-direction: column;
