@@ -1073,7 +1073,7 @@ button.swiper-pagination-bullet {
 
 .header {
   width: 100%;
-  background: linear-gradient(0deg, rgba(40, 40, 40, 0.6) 0%, rgba(40, 40, 40, 0.6) 100%), url("img/header-background.jpg"), lightgray 50%;
+  background: linear-gradient(0deg, rgba(40, 40, 40, 0.6) 0%, rgba(40, 40, 40, 0.6) 100%), url("/pages/main-page/img/header-background.jpg"), lightgray 50%;
   background-size: cover;
   height: 300px;
 }
@@ -1194,10 +1194,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 800px) {
-  .news__aside {
-    display: none;
-    visibility: hidden;
-  }
   .new:nth-child(n+4) {
     display: none;
     visibility: hidden;

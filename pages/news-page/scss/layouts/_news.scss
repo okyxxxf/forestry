@@ -53,17 +53,11 @@
 }
 
 @media (max-width: 800px) {
-    .news__aside {
-        display: none;
-        visibility: hidden;
-    }
     .new:nth-child(n + 4) {
         display: none;
         visibility: hidden;
     }
 }
-
-
 
 @media (min-width: 800px) {
     .news__wrapper {
