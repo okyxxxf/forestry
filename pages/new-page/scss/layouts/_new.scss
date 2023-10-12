@@ -3,7 +3,7 @@
     padding: 20px 30px;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 0px;
     border-radius: 0px;
 }
 
@@ -16,8 +16,12 @@
     gap: 15px;
 }
 
-.new__p {
-    color: $color-text-accent;
+.new-page__img {
+    background-color: $color-text;
+    border-radius: 15px;
+    width: calc(100vw - 70px);
+    height: calc(100vw / 2.143);
+    align-self: center;
 }
 
 @media (min-width: 800px) {
@@ -30,4 +34,5 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }

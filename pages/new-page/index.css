@@ -1,9 +1,17 @@
+.new__p {
+  color: #818181;
+}
+
+.new__h3 {
+  line-height: 175%;
+}
+
 .new-page__new {
   background: #282828;
   padding: 20px 30px;
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 0px;
   border-radius: 0px;
 }
 
@@ -16,8 +24,12 @@
   gap: 15px;
 }
 
-.new__p {
-  color: #818181;
+.new-page__img {
+  background-color: #DCDCDC;
+  border-radius: 15px;
+  width: calc(100vw - 70px);
+  height: 46.6635557629vw;
+  align-self: center;
 }
 
 @media (min-width: 800px) {
@@ -29,6 +41,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
