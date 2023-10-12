@@ -8,3 +8,16 @@
     top: 10px;
     left: 38px;
 }
+
+@media screen and (min-width: 1000px) {
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .logo__h1 {
+        position: absolute;
+        top: 18px;
+        left: 65px;
+    }
+}
+

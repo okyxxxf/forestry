@@ -2,15 +2,15 @@
   font-family: Manrope;
 }
 
-.h1, .h2 {
+.h1, .h2, .footer__h1 {
   color: #DCDCDC;
   font-size: 20px;
   font-style: normal;
   line-height: 100%;
 }
 
-@media screen and (min-width: 100px) {
-  .h2 {
+@media screen and (min-width: 1000px) {
+  .h2, .h1 {
     font-size: 32px;
   }
 }
@@ -27,13 +27,6 @@
   font-style: normal;
   line-height: 100%;
   text-decoration: none;
-}
-
-.footer__h1 {
-  color: #DCDCDC;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 100%;
 }
 
 .regular {
@@ -111,6 +104,17 @@
   left: 38px;
 }
 
+@media screen and (min-width: 1000px) {
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  .logo__h1 {
+    position: absolute;
+    top: 18px;
+    left: 65px;
+  }
+}
 .header__nav {
   display: flex;
   width: 100%;
