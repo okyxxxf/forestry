@@ -9,6 +9,11 @@
   line-height: 100%;
 }
 
+@media screen and (min-width: 100px) {
+  .h2 {
+    font-size: 32px;
+  }
+}
 .h3 {
   color: #DCDCDC;
   font-size: 18px;
@@ -1234,6 +1239,9 @@ button.swiper-pagination-bullet {
 @media (min-width: 1000px) {
   .forestries .slider__wrapper {
     padding: 0 50px;
+  }
+  .forestries__h2 {
+    padding: 50px;
   }
 }
 @media (min-width: 1200px) {

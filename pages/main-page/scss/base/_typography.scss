@@ -9,6 +9,12 @@
     line-height: 100%;
 }
 
+@media screen and (min-width: 100px) {
+    .h2 {
+        font-size: 32px;
+    }
+}
+
 .h3 {
     color: $color-text;
     font-size: 18px;
