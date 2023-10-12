@@ -69,6 +69,7 @@
   background: #F0E332;
   border: none;
   padding: 18px;
+  transition: 1s;
 }
 
 .news__button {
@@ -81,6 +82,9 @@
   .news__button {
     width: auto;
     padding: 18px;
+  }
+  .button:hover {
+    background-color: #FBC029;
   }
 }
 .forestry__button {
@@ -1346,6 +1350,12 @@ button.swiper-pagination-bullet {
 .footer__info > * {
   display: flex;
   gap: 20px;
+}
+.footer__info > * a {
+  transition: 0.5s;
+}
+.footer__info > * a:hover {
+  color: #FBC029;
 }
 
 *, *:before, *:after {

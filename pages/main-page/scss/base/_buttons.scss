@@ -7,6 +7,7 @@
     background: $color-button;
     border: none;
     padding: 18px;
+    transition: 1s;
 }
 
 .news__button {
@@ -19,6 +20,10 @@
     .news__button {
         width: auto;
         padding: 18px;
+    }
+
+    .button:hover {
+        background-color: $color-button-hover;
     }
 }
 

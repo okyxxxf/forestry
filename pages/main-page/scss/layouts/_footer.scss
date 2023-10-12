@@ -20,5 +20,11 @@
     & > * {
         display: flex;
         gap: 20px;
+        a {
+            transition: 0.5s;
+        }
+        a:hover {
+            color: $color-button-hover;
+        }
     }
 }
