@@ -8,6 +8,13 @@
 
 .menu {
     display: none;
+    height: 100%;
+    align-items: center;
+    li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
 }
 
 .burger {
@@ -23,4 +30,36 @@
         display: flex;
         gap: calc(100vw / 36);
     }
+}
+
+.submenu {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    top: 50px;
+    z-index: -2;
+    border-radius: 0px 0px 15px 15px;
+    background: $color-background;
+    width: auto;
+
+    .submenu__element {
+        padding: 15px;
+        transition: 0.5s;
+    }
+    .submenu__element:hover {
+        background-color: $color-background-accent;
+    }
+    .submenu__element:last-child:hover {
+        border-radius: 0px 0px 15px 15px;
+    }
+}
+
+.down {
+    position: relative;
+}
+
+.down:hover .submenu {
+    animation: showmenu 1s ease forwards;
+    z-index: 5;
 }

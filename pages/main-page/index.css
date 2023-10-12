@@ -135,6 +135,13 @@
 
 .menu {
   display: none;
+  height: 100%;
+  align-items: center;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .burger {
@@ -151,6 +158,37 @@
     gap: 2.7777777778vw;
   }
 }
+.submenu {
+  max-height: 0;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  top: 50px;
+  z-index: -2;
+  border-radius: 0px 0px 15px 15px;
+  background: #282828;
+  width: auto;
+}
+.submenu .submenu__element {
+  padding: 15px;
+  transition: 0.5s;
+}
+.submenu .submenu__element:hover {
+  background-color: #373737;
+}
+.submenu .submenu__element:last-child:hover {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.down {
+  position: relative;
+}
+
+.down:hover .submenu {
+  animation: showmenu 1s ease forwards;
+  z-index: 5;
+}
+
 .burger {
   width: 20px;
   height: 2px;
