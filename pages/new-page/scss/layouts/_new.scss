@@ -7,19 +7,22 @@
     border-radius: 0px;
 }
 
-.new__h2 {
+.new-page__title {
+    background-color: $color-background-accent;
+    padding: 15px;
+    border-radius: 15px;
     display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.new__p {
+    color: $color-text-accent;
 }
 
 @media (min-width: 800px) {
     .new-page__new {
         padding: 50px 80px;
-    }
-    .new__h2 {
-        padding-bottom: 50px;
     }
 }
 
