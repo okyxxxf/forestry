@@ -1,0 +1,36 @@
+.header__button_active {
+    color: $color-text-accent;
+}
+
+.button {
+    border-radius: 15px;
+    background: $color-button;
+    border: none;
+    padding: 18px;
+    transition: 1s;
+}
+
+.news__button {
+    width: 300px;
+    padding: 18px 45px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+    .news__button {
+        width: auto;
+        padding: 18px;
+    }
+
+    .button:hover {
+        background-color: $color-button-hover;
+    }
+}
+
+.forestry__button {
+    padding: 18px;
+}
+
+.products__button {
+    width: 300px;
+}

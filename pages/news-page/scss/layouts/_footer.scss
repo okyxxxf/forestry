@@ -1,0 +1,30 @@
+.footer {
+    background: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+}
+
+@media screen and (min-width: 1000px) {
+    .footer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & > * {
+        display: flex;
+        gap: 20px;
+        a {
+            transition: 0.5s;
+        }
+        a:hover {
+            color: $color-button-hover;
+        }
+    }
+}
