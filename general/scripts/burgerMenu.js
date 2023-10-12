@@ -32,7 +32,7 @@
           <ul class="burger-menu__nav_nest">
             <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Структура</a></li>
             <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Руководство</a></li>
-            <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Новости</a></li>
+            <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="/pages/news-page/news-page.html">Новости</a></li>
             <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Вакансии</a></li>
             <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Охота и отдых</a></li>
             <li class="burger-menu__element_nest burger-menu__element"><a class="p none-decor" href="#">Геральдика</a></li>

@@ -242,7 +242,7 @@
   width: 100%;
   height: 56.8181818182vw;
   border-radius: 15px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.1%, rgba(40, 40, 40, 0.8) 100%), url(img/header-background.jpg), lightgray 50%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.1%, rgba(40, 40, 40, 0.8) 100%), url(/general/img/header-background.jpg), lightgray 50%;
   background-size: cover;
   position: relative;
 }
@@ -1170,7 +1170,7 @@ button.swiper-pagination-bullet {
 
 .header {
   width: 100%;
-  background: linear-gradient(0deg, rgba(40, 40, 40, 0.6) 0%, rgba(40, 40, 40, 0.6) 100%), url("img/header-background.jpg"), lightgray 50%;
+  background: linear-gradient(0deg, rgba(40, 40, 40, 0.6) 0%, rgba(40, 40, 40, 0.6) 100%), url("/general/img/header-background.jpg"), lightgray 50%;
   background-size: cover;
   height: 300px;
 }

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Минский лесхоз</title>
-    <link rel="stylesheet" href="/pages/main-page/index.css">
+    <link rel="stylesheet" href="/general/css/index.css">
     <link rel="stylesheet" href="/pages/new-page/index.css">
-    <link rel="shortcut icon" href="/pages/main-page/img/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/general/img/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
@@ -21,27 +21,56 @@
                     <div class="header__button h3 regular">BE</div>
                 </div>
                 <div class="header__buttons-wrapper">
-                    <img class="header__button" src="/pages/main-page/img/low-vision.svg" alt="Кнопка для слабовидящих">
-                    <img class="header__button" src="/pages/main-page/img/map.svg" alt="Карта сайта">
-                    <img class="header__button" src="/pages/main-page/img/feedback).svg" alt="Кнопка электронного обращения">
+                    <img class="header__button" src="/general/img/low-vision.svg" alt="Кнопка для слабовидящих">
+                    <img class="header__button" src="/general/img/map.svg" alt="Карта сайта">
+                    <img class="header__button" src="/general/img/feedback).svg" alt="Кнопка электронного обращения">
                 </div>
             </div>
             <div class="header__logo">
                 <div class="logo">
-                    <img src="/pages/main-page/img/favicon.svg" alt="logo image">
+                    <img src="/general/img/favicon.svg" alt="logo image">
                     <h1 class="h1 bold-extra logo__h1 logo__h1_header">Минский Лесхоз</h1>
                 </div>
             </div>
             <nav class="header__nav nav">
                 <ul class="menu">
                     <li><a class="p regular" href="#">Главная</a></li>
-                    <li><a class="p regular" href="#">Продукция и услуги</a> </li>
-                    <li><a class="p regular" href="#">О лесхозе</a></li>
-                    <li><a class="p regular" href="#">Обращения</a></li>
+                    <li class="down"><a class="p regular" href="#">Продукция и услуги</a>
+                        <ul class="submenu">
+                            <li class="submenu__element"><a class="p none-decor" href="#">Древесина в круглом виде</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Дрова</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Колотые дрова</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Посадочный материал</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Пиломатериалы</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Побочное использование</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Услуги</a></li>
+                        </ul>
+                    </li>
+                    <li class="down"><a class="p regular" href="#">О лесхозе</a>
+                        <ul class="submenu">
+                            <li class="submenu__element"><a class="p none-decor" href="#">Структура</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Руководство</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="/pages/news-page/news-page.html">Новости</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Вакансии</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Охота и отдых</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Геральдика</a></li>
+                        </ul>
+                    </li>
+                    <li class="down"><a class="p regular" href="#">Обращения</a>
+                        <ul class="submenu">
+                            <li class="submenu__element"><a class="p none-decor" href="#">Личный прием</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Порядок расмотрения обращений</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">обращения.бел</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Прямые телефонные линии</a></li>
+                            <li class="submenu__element"><a class="p none-decor" href="#">Наименование и местонахождение вышестоящего органа</a></li>
+                        </ul>
+                    </li>
                     <li><a class="p regular" href="#">Контакты</a></li>
                     <li><a class="p regular" href="#">Административные процедуры</a></li>
                 </ul>
-                <img src="/pages/main-page/img/menu__burger.svg" alt="burger menu icon" class="burger">
+                <div class="burger-menu-icon">
+                    <div class="burger"></div>
+                </div>
                 <p class="p regular">Телефоны горячих линий</p>
             </nav>
         </div>
@@ -67,64 +96,64 @@
             <div class="info-resourses__wrapper">
                 <h2 class="info-resourses__h2 h2 bold">Информационные ресурсы</h2>
                 <div class="slider__wrapper">
-                    <img src="/pages/main-page/img/slider-back.svg" alt="back button" id="info-resourse-prev" class="back-button slider__button">
+                    <img src="/general/img/slider-back.svg" alt="back button" id="info-resourse-prev" class="back-button slider__button">
                     <div class="info-resourses__slider">
                         <div class="swiper-wrapper info-resourse__swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="https://www.facebook.com/minskforestry"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse1.png" alt="Facebook лесхоза"></a>
+                                <a href="https://www.facebook.com/minskforestry"><img class="info-resourse__img" src="/general/img/info-resourse1.png" alt="Facebook лесхоза"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://moopl.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse2.png" alt="МООБПСРЛИП"></a>
+                                <a href="https://moopl.by/"><img class="info-resourse__img" src="/general/img/info-resourse2.png" alt="МООБПСРЛИП"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://president.gov.by/ru"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse3.png" alt="Президент РБ"></a>
+                                <a href="https://president.gov.by/ru"><img class="info-resourse__img" src="/general/img/info-resourse3.png" alt="Президент РБ"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://www.belstu.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse4.png" alt="БГТУ"></a>
+                                <a href="https://www.belstu.by/"><img class="info-resourse__img" src="/general/img/info-resourse4.png" alt="БГТУ"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://mplho.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse5.png" alt="Минское ГПЛХО"></a>
+                                <a href="https://mplho.by/"><img class="info-resourse__img" src="/general/img/info-resourse5.png" alt="Минское ГПЛХО"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://mlh.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse6.png" alt="Министерство лесного хозяйства РБ"></a>
+                                <a href="https://mlh.by/"><img class="info-resourse__img" src="/general/img/info-resourse6.png" alt="Министерство лесного хозяйства РБ"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://cis.minsk.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse7.png" alt="ИСПОЛНИТЕЛЬНЫЙ КОМИТЕТ
+                                <a href="https://cis.minsk.by/"><img class="info-resourse__img" src="/general/img/info-resourse7.png" alt="ИСПОЛНИТЕЛЬНЫЙ КОМИТЕТ
                                     СОДРУЖЕСТВА НЕЗАВИСИМЫХ ГОСУДАРСТВ"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://export.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse8.png" alt="Портал информационной поддержки экспорта"></a>
+                                <a href="https://export.by/"><img class="info-resourse__img" src="/general/img/info-resourse8.png" alt="Портал информационной поддержки экспорта"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://www.butb.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse9.png" alt="Беларуская универсальная товарная биржа"></a>
+                                <a href="https://www.butb.by/"><img class="info-resourse__img" src="/general/img/info-resourse9.png" alt="Беларуская универсальная товарная биржа"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="http://www.belwood.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse10.png" alt="BELWOOD"></a>
+                                <a href="http://www.belwood.by/"><img class="info-resourse__img" src="/general/img/info-resourse10.png" alt="BELWOOD"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="http://rlpa.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse11.png" alt="Республиканская лесопромышленная ассоциация"></a>
+                                <a href="http://rlpa.by/"><img class="info-resourse__img" src="/general/img/info-resourse11.png" alt="Республиканская лесопромышленная ассоциация"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://www.ihunt.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse12.png" alt="Белгосохота"></a>
+                                <a href="https://www.ihunt.by/"><img class="info-resourse__img" src="/general/img/info-resourse12.png" alt="Белгосохота"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="http://www.lesgazeta.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse13.png" alt="Беларуская лесная газета"></a>
+                                <a href="http://www.lesgazeta.by/"><img class="info-resourse__img" src="/general/img/info-resourse13.png" alt="Беларуская лесная газета"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://president.gov.by/ru/gosorgany"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse14.png" alt="Государственные органы и организации Беларуси"></a>
+                                <a href="https://president.gov.by/ru/gosorgany"><img class="info-resourse__img" src="/general/img/info-resourse14.png" alt="Государственные органы и организации Беларуси"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://les.1prof.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse15.png" alt="Белорусский профессиональный союз работников леса и природоиспользования"></a>
+                                <a href="https://les.1prof.by/"><img class="info-resourse__img" src="/general/img/info-resourse15.png" alt="Белорусский профессиональный союз работников леса и природоиспользования"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="http://xn----7sbgfh2alwzdhpc0c.xn--90ais/organization/2896/org-page"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse16.png" alt="Государственное лесохозяйственное учреждение Минский Лесхоз качество-услуг"></a>
+                                <a href="http://xn----7sbgfh2alwzdhpc0c.xn--90ais/organization/2896/org-page"><img class="info-resourse__img" src="/general/img/info-resourse16.png" alt="Государственное лесохозяйственное учреждение Минский Лесхоз качество-услуг"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="https://forumpravo.by/"><img class="info-resourse__img" src="/pages/main-page/img/info-resourse17.png" alt="Правовой форум Беларуси"></a>
+                                <a href="https://forumpravo.by/"><img class="info-resourse__img" src="/general/img/info-resourse17.png" alt="Правовой форум Беларуси"></a>
                             </div>
                         </div>
                     </div>
-                    <img src="/pages/main-page/img/slider-future.svg" alt="future button" id="info-resourse-next" class="future-button slider__button">
+                    <img src="/general/img/slider-future.svg" alt="future button" id="info-resourse-next" class="future-button slider__button">
                 </div>
             </div>
         </section>
@@ -132,19 +161,19 @@
     <footer class="footer">
         <div class="footer__logo">
             <div class="logo">
-                <img src="/pages/main-page/img/favicon.svg" alt="logo image" class="logo__img_footer">
+                <img src="/general/img/favicon.svg" alt="logo image" class="logo__img_footer">
                 <h1 class="bold-extra logo__h1 footer__h1">Минский Лесхоз</h1>
             </div>
         </div>
         <div class="footer__info">
             <p class="p regular">
-                <img src="/pages/main-page/img/call-icon.svg" alt="Звонок иконка"><a href="callto: 3516012" class="p regular none-decor">351-60-12 </a>
+                <img src="/general/img/call-icon.svg" alt="Звонок иконка"><a href="callto: 3516012" class="p regular none-decor">351-60-12 </a>
             </p>
             <p class="p regular">
-                <img src="/pages/main-page/img/map-icon.svg" alt="Карта точка иконка"><a href="https://yandex.com/maps/-/CDU2bY7n" class="p regular none-decor">220037 г. Минск, ул. Багратиона, 70</a>
+                <img src="/general/img/map-icon.svg" alt="Карта точка иконка"><a href="https://yandex.com/maps/-/CDU2bY7n" class="p regular none-decor">220037 г. Минск, ул. Багратиона, 70</a>
             </p>
             <p class="p regular">
-                <img src="/pages/main-page/img/mail-icon.svg" alt="письмо конверт иконка"><a href="mailto: lesxozsys@forestry.by" class="p regular none-decor">lesxozsys@forestry.by</a>   
+                <img src="/general/img/mail-icon.svg" alt="письмо конверт иконка"><a href="mailto: lesxozsys@forestry.by" class="p regular none-decor">lesxozsys@forestry.by</a>   
             </p>
         </div>
         <div class="footer__info">
@@ -164,6 +193,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="/pages/main-page/scripts/infoResoursesSlider.js"></script>
+    <script src="/general/scripts/infoResoursesSlider.js"></script>
+    <script src="/general/scripts/burgerMenu.js"></script>
 </body>
 </html>
