@@ -58,6 +58,25 @@
     opacity: 0;
   }
 }
+@keyframes showmenu {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 100vh;
+    opacity: 1;
+  }
+}
+@keyframes hidemenu {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+    display: none;
+  }
+}
 .header__button_active {
   color: #818181;
 }
@@ -141,6 +160,55 @@
     gap: 2.7777777778vw;
   }
 }
+.burger {
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #DCDCDC;
+  transition: 0.5s;
+}
+
+.burger-menu-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger::after,
+.burger::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #DCDCDC;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.burger::after {
+  transform: translateY(7px);
+}
+
+.burger::before {
+  transform: translateY(-7px);
+}
+
+.burger-menu-icon.open .burger {
+  transform: translateX(-45px);
+  background: transparent;
+}
+
+.burger-menu-icon.open .burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.burger-menu-icon.open .burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
 .info-block_big {
   width: 100%;
   height: 56.8181818182vw;
@@ -1338,6 +1406,55 @@ button.swiper-pagination-bullet {
 
 .info-resourses .slider__wrapper {
   display: flex;
+}
+
+.burger-menu {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  background: #282828;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.burger-menu__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger-menu__element {
+  padding: 15px 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.burger-menu__element .burger-menu__element {
+  border-radius: 15px;
+}
+.burger-menu__element .element__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.burger-menu__element:hover {
+  background: #373737;
+}
+.burger-menu__element:hover .burger-menu__element:hover {
+  background: #282828;
+}
+.burger-menu__element:not(:focus) .burger-menu__nav_nest {
+  display: none;
+}
+.burger-menu__element:not(:focus) .element__wrapper {
+  padding-bottom: 0;
+}
+.burger-menu__element:focus .burger-menu__nav_nest {
+  animation: showmenu 1s ease forwards;
+}
+.burger-menu__element:focus .nest-icon {
+  transform: rotate(90deg);
+}
+
+.nest-icon {
+  transition: 0.5s;
 }
 
 .footer {
