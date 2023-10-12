@@ -1296,11 +1296,10 @@ button.swiper-pagination-bullet {
   height: 60px;
 }
 
-.swiper-slide {
+.info-resourses__slider .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: content-box;
 }
 
 .slider__button {
@@ -1311,6 +1310,14 @@ button.swiper-pagination-bullet {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.info-resourses__slider {
+  overflow: hidden;
+}
+
+.info-resourses .slider__wrapper {
+  display: flex;
 }
 
 .footer {

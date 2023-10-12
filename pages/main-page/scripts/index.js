@@ -24,6 +24,7 @@ window.onload = () => {
   const infoResoursesSwiper = new Swiper(".info-resourses__slider", {
         loop: true,
         spaceBetween: 0,
+        centeredSlidesBounds: true,
         speed: 200,
         navigation: {
           nextEl: "#info-resourse-next",
@@ -56,4 +57,6 @@ window.onload = () => {
           },
         }
       });
+
+  document.body.style.overflowX = 'hidden';
 }
