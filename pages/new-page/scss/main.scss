@@ -1,23 +1,5 @@
 @import 
     'abstracts/variables';
-    
-@import 
-    'base/typography',
-    'base/animations',
-    'base/buttons';
-
-@import 
-    'components/logo',
-    'components/nav',
-    'components/new',
-    'components/slider';
-
 
 @import
-    'layouts/header',
-    'layouts/news',
-    'layouts/info-resourses',
-    'layouts/footer';
-
-@import 
-    'vendors/reset';
+    'layouts/new';
