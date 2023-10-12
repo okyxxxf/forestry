@@ -1,0 +1,55 @@
+.h1, .h2, .h3, .p, .footer__h1 {
+    font-family: Manrope;
+}
+
+.h1, .h2, .footer__h1 {
+    color: $color-text;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    .h2, .h1 {
+        font-size: 32px;
+    }
+}
+
+.h3 {
+    color: $color-text;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.p { 
+    color: $color-text;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bold-extra {
+    font-weight: 800;
+}
+
+.date {
+    color: $color-text-accent;
+}
+
+.button {
+    color: $color-background;
+}
+
+.none-decor {
+    text-decoration: none;
+}

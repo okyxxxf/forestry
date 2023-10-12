@@ -1,0 +1,62 @@
+.forestry {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.forestry__info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    & > .button-wrapper {
+        padding: 30px 0;
+    }
+}
+
+.slider__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .slider__buttons {
+        position: relative;
+        justify-content: space-between;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        top: -170px;
+    }
+    .swiper-button-next {
+        right: -15px;
+    }
+    .swiper-button-prev {
+        left: -15px;
+    }
+    .forestry {
+        .forestry__button,
+        .forestry__p {
+            opacity: 0;
+            transition: 1s;
+        }
+    }
+    .forestry:hover {
+        .forestry__button,
+        .forestry__p {
+            opacity: 1;
+        }
+        .forestry__button:hover {
+            background-color: $color-button-hover;
+        }
+    }
+}
